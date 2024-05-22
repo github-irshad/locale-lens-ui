@@ -1,5 +1,7 @@
 import React,{ Fragment } from "react";
 function Login(){
+  const[username , setUsername ] = useState('');
+    const[createPwd , setCreatePwd ] = useState('');
 return (
     <Fragment>
       <div>Login</div>
