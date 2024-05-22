@@ -46,7 +46,7 @@ function Register() {
                 {
                     console.log("conflict");
                 }
-        });
+        }); 
     }
 
   return (
